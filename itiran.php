@@ -1,6 +1,6 @@
 <?php
 include("index_north.php");
-$require_once (dirname(__FILE__)."/sensitive.php")
+$require_once (dirname(__FILE__)."/sensitive.php");
 
 
 $sakuhinkey = $_GET['sakuhinkey'];
