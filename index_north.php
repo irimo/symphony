@@ -17,7 +17,7 @@
 <div id="underseparate">
 <div id="leftmenu">作品<br>
 <?php
-$require_once (dirname(__FILE__)."/sensitive.php");
+require_once (dirname(__FILE__)."/sensitive.php");
 
 $conn = mysql_connect($DBADRESS_P,$DBUSERNAME_P,$DBPW_P);
 mysql_query("USE mnlab_public",$conn);

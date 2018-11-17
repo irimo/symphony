@@ -1,6 +1,6 @@
 <?php
 include("index_north.php");
-$require_once (dirname(__FILE__)."/sensitive.php");
+require_once (dirname(__FILE__)."/sensitive.php");
 ?>
 コメントを書き込みました。<br>
 ありがとうございました！<br>
