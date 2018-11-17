@@ -26,7 +26,7 @@ $res = mysql_query($sql,$conn);
 while($row = mysql_fetch_array($res)){
 if($num < $row['utakey'])$num = $row['utakey'];
 }
-print("<a href=\"tuika-comme-form.php?utakey=".$num."\" style=\"text-decoration:none\">★最新書き込み歌：");
+print("<a href=\"tuika-comme-form.php?utakey=".$num."\" style=\"text-decoration:none\">★最新歌：");
 
 $sql2 = "SELECT * FROM sym_utatable WHERE utakey = '$num'";
 $res2 = mysql_query($sql2,$conn);

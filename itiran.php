@@ -38,7 +38,6 @@ if($row['sicho'])print("[<a href=\"".$row['sicho']."\">視聴</a>]");else("[視�
 if($row['joho'])print("[<a href=\"".$row['joho']."\">情報</a>]");else("[情報]");
 print("<br>");
 print("<br>");
-print("<a href=\"tuika-comme-form.php?utakey=".$row['utakey']."\">→コメントを見る</a>");
 print("</div>");
 }
 
