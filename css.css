@@ -1,0 +1,138 @@
+/* CSS Document */
+
+body,td{
+font-size:80%;
+line-height:150%;
+color:#000000;
+}
+
+#container_soto{
+width:740px;
+border:12px solid #0000CC;
+margin:0px;
+padding:0px;
+}
+#container_uti{
+border:1px solid #FF66CC;
+margin:0px;
+padding:16px;
+width:auto;
+height:auto;
+}
+
+.overmenu{
+border:1px solid #000099;
+margin:8px 0px;
+padding:4px;
+color:#666666;
+text-align:right;
+}
+
+.overmenu a:link,.overlink a:visited{
+color:#666666;
+}
+
+.overmenu a:hover{
+color:#666666;
+font-weight:bold;
+}
+
+#underseparate{
+padding:0px;
+marign:0px;
+width:auto;
+}
+
+#leftmenu{
+border:1px solid #000099;
+background-color:#0000CC;
+margin:0px;
+padding:10px;
+color:#FFFFFF;
+font-size:110%;
+line-height:125%%;
+float:left;
+width:180px;
+}
+
+#leftmenu a:link{
+color:#FFFFFF;
+}
+
+#leftmenu a:visited{
+color:#FFFFFF;
+}
+
+#leftmenu a:hover{
+color:#FF66CC;
+
+}
+
+#rightcontents{
+margin:1px 0px 0px 28px;
+padding:0px;
+float:left;
+width:476px;
+}
+
+.divclr{
+margin:0px;
+padding:0px;
+clear:both;
+}
+
+.oya{
+margin:0px 0px 20px 0px;
+padding:0px 0px 0px 14px;
+}
+
+#sakuhintitle{
+color:#0000CC;
+font-weight:bold;
+font-size:120%;
+border:1px solid #000099;
+margin:0px 0px 14px 0px;
+padding:4px 40px;
+text-align:right;
+width:auto;
+}
+
+font.title{
+font-size:150%;
+margin:0px 12px 0px 0px;
+font-weight:bold;
+}
+
+font.artist{
+font-size:90%;
+color:#666600;
+}
+
+.oya a:link,.oya a:visited{
+font-size:90%;
+color:#990066;
+}
+
+.tocmt{
+color:#999999;
+}
+
+.oya a:hover{
+font-size:90%;
+color:#990066;
+font-weight:bold;
+}
+
+
+font.commentyuudou{
+font-size:100%;
+}
+
+.ko{
+border:1px dashed #999999;
+color:#999999;
+margin:0px 0px 1px 40px;
+padding:10px;
+}
+
+
